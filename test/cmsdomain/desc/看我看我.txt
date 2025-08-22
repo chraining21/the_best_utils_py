@@ -1,0 +1,29 @@
+##
+要改裡面使用的文件檔名
+##
+
+seperate_game_code_by_category
+
+這個是用來把cmsDomainSetting的gamelist根據他裡面的category分開
+會產生一個資料夾裡面有全部的
+
+使用的文件參考 template.json
+
+--
+
+compare_game_code_in_game_provider_data
+
+這個是用來比較cmsDomainSetting產出的gamecode跟原本gameproviderdata的gamecode
+可利用replace功能將 >><< 改成 ,  然後再將 << 及 >> 改成空即可跑
+會產生一個比較文件
+
+使用的文件參考 cmscode_template.txt, gameproviderdatacode_template.txt
+
+--
+
+remove_duplicate_game_in_game_provider_data
+
+這個是用來remove多餘的gamecode
+即可跑
+
+使用的文件參考codes_to_remove_template.txt, format1_data_template.txt, format2_data_template.json

@@ -1,0 +1,31 @@
+{
+  "start_paths": [
+    "aaa",
+    "aaasfffefef"
+  ],
+  "output_configs": [
+    {
+      "output_path": "vvv",
+      "files": [
+        "aaaa",
+        "bbbb",
+        "nnnn",
+        "ccc",
+        "adasddad"
+      ]
+    },
+    {
+      "output_path": "aaaa",
+      "files": [
+        "dsdsd",
+        "dsdsdd",
+        "sss12233",
+        "ew1243"
+      ]
+    },
+    {
+      "output_path": "11111",
+      "files": []
+    }
+  ]
+}

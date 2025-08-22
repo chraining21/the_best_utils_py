@@ -1,0 +1,40 @@
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow, QTabWidget, QWidget, QVBoxLayout, QPushButton
+from PyQt5.QtCore import QCoreApplication
+import os
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle('分頁範例')
+        self.setGeometry(100, 100, 400, 300)
+
+        # 創建Tab Widget
+        self.tabs = QTabWidget()
+        self.setCentralWidget(self.tabs)
+
+        # 創建第一頁
+        self.tab1 = QWidget()
+        self.tabs.addTab(self.tab1, '關機')
+
+        # 設置第一頁的布局和控件
+        self.tab1_layout = QVBoxLayout()
+        self.tab1.setLayout(self.tab1_layout)
+
+        self.shutdown_button = QPushButton('休眠')
+        self.shutdown_button.clicked.connect(self.hibernate)
+        self.tab1_layout.addWidget(self.shutdown_button)
+
+    def hibernate(self):
+        # 執行休眠功能
+        if sys.platform == 'win32':
+            os.system('shutdown /h')
+        elif sys.platform == 'linux' or sys.platform == 'darwin':
+            os.system('systemctl suspend')
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec_())
