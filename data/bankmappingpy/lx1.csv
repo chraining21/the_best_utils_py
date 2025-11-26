@@ -1,0 +1,107 @@
+bank name,bank code,provider code
+Bank BRI,bri;bri2;bri 2;bri 3;bri 4;bri 5;bri 6,002
+Bank Mandiri,mdri;mdr10;mdr11;mdr12;mdr13;mdr14;mdr15;mdr16;mdr17;mdr18;mdr19;mdri2;mdr 2;mdr20;mdr21;mdr22;mdr23;mdr24;mdr25;mdr26;mdr27;mdr28;mdr29;mdr 3;mdr30;mdr31;mdr32;mdr33;mdr34;mdr35;mdr36;mdr37;mdr38;mdr39;mdr 4;mdr40;mdr 5;mdr 6;mdr7;mdr8;mdr9,008
+Bank BNI,bni;bni 2;bni2;bni 3;bni 4;bni 5;bni 6;bni3;bni4,009
+Bank Danamon,dmn;dnamon,011
+Bank Permata,prmta;permata,013
+Bank Permata Syariah,,427
+Bank BCA,bca;bca2;bca3;bca10;bca11;bca12;bca13;bca14;bca15;bca16;bca17;bca18;bca19;bca20;bca21;bca22;bca23;bca24;bca25;bca26;bca27;bca28;bca29;bca30;bca31;bca32;bca33;bca34;bca35;bca4;bca5;bca6;bca7;bca8;bca9,014
+BII Maybank,myb,016
+Bank Panin,panin,019
+CIMB Niaga,cimbn;cimbn2,022
+Bank UOB INDONESIA,UOB;uob,023
+Bank OCBC NISP,ocbc,028
+CITIBANK,ctb,031
+Bank Windu Kentjana International,,036
+Bank ARTHA GRAHA,arg,037
+Bank TOKYO MITSUBISHI UFJ,,042
+Bank DBS,dbs,046
+Standard Chartered,,050
+Bank CAPITAL,cap,054
+ANZ Indonesia,,061
+Bank OF CHINA,,069
+Bank Bumi Arta,,076
+Bank HSBC,hsb,087
+Bank Antardaerah,,088
+Bank Rabobank,,089
+Bank JTRUST INDONESIA,,095
+Bank MAYAPADA,myp,097
+Bank Jawa Barat,,110
+Bank DKI,dki,111
+Bank BPD DIY,bdy,112
+Bank JATENG,jtg,113
+Bank Jatim,jtm,114
+Bank Jambi,jmb,115
+Bank Jambi Syariah,,115
+Bank Aceh,ach,116
+Bank Aceh Syariah,acehsyariah,116
+Bank SUMUT,sumut,117
+Bank NAGARI,ngr,118
+Bank Riau,riau,119
+Bank Riau Syariah,brks,119
+Bank SUMSEL BABEL,babel,120
+Bank SUMSEL BABEL Syariah,,120
+Bank Lampung,lpg,121
+Bank KALSEL,ksl,122
+Bank KALBAR,kalbar,123
+Bank BPD Kaltim,bpdkaltim,124
+Bank BPD Kalteng,,125
+Bank SULSELBAR,,126
+Bank Sulut,,127
+Bank NTB,,128
+Bank NTB Syariah,ntb,128
+Bank BPD Bali,bpdbali,129
+Bank NTT,,130
+Bank Maluku,,131
+Bank BPD Papua,bpdpapua,132
+Bank SULTENG,,134
+Bank Sultra,,135
+Bank BANTEN,,137
+Bank Nusantara Parahyangan,,145
+Bank Of India Indonesia,,146
+Bank Muamalat,mml,147
+Bank Mestika,mtk,151
+Bank SHINHAN,,152
+Bank Sinarmas,snrms,153
+Bank Maspion,mpn,157
+Bank Ganesha,,161
+Bank ICBC,,164
+Bank QNB indonesia,,167
+Bank BTN,btn,200
+Bank Woori Saudara,,212
+Bank BTPN,btpn,213
+Bank Victoria Syariah,,405
+Bank Jabar Banten Syariah,,425
+Bank Mega,mega,426
+Bank Bukopin,bkp,441
+Bank Syariah Indonesia,bsi,451
+Bank Jasa Jakarta,,472
+Bank KEB HANA,hana,484
+Bank MNC INTERNATIONAL,,485
+Bank YUDHA BHAKTI/ Bank Neo Commerce,Mans,490
+Bank Rakyat Indonesia AGRONIAGA,,494
+Bank SBI Indonesia (Indomonex),,498
+Bank Royal,,501
+Bank National Nobu,nobu,503
+Bank MEGA SYARIAH,,506
+Bank INA,,513
+Bank PANIN SYARIAH,,517
+PRIMA MASTER BANK,,520
+Bank SYARIAH BUKOPIN,bsk,521
+Bank Sahabat Sampoerna,,523
+Bank DINAR,,526
+Bank Seabank Indonesia,seabank,535
+Bank BCA SYARIAH,bcasyariah,536
+Bank ARTOS/ Bank Jago,jago,542
+Bank BTPN SYARIAH,,547
+Bank MULTIARTA SENTOSA,,548
+Bank Mayora,myr,553
+Bank INDEX,,555
+CNB,,559
+Bank MANTAP,,564
+Bank VICTORIA INTL,vti,566
+HARDA,,567
+BPR KS,,688
+IBK,,945
+Bank CTBC Indonesia,,949
+Bank COMMONWEALTH,,950
