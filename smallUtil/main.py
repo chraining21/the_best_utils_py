@@ -6,8 +6,10 @@ from jsonFormatter import JsonFormatterTab
 import qtawesome as qta
 from md5Cal import MD5Cal
 from stringTrans import StringTrans
-
 from copyfile import CopyFileWindow
+from copyfile_v2 import CopyFileWindow2
+
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -36,19 +38,23 @@ class MainWindow(QMainWindow):
         self.copy_file_tab = CopyFileWindow()
         json_icon = qta.icon('fa5s.yin-yang') 
         self.tabs.addTab(self.copy_file_tab, json_icon, 'Copy Files')
+        
+        self.copy_file_tab2 = CopyFileWindow2()
+        json_icon = qta.icon('fa5s.yin-yang') 
+        self.tabs.addTab(self.copy_file_tab2, json_icon, 'Copy Files2')
 
       
-        self.json_formatter_tab = JsonFormatterTab()
-        json_icon = qta.icon('fa5s.truck-moving')  # 使用 Font Awesome 的 code 图标
-        self.tabs.addTab(self.json_formatter_tab, json_icon, 'JsonFormat')
+        # self.json_formatter_tab = JsonFormatterTab()
+        # json_icon = qta.icon('fa5s.truck-moving')  # 使用 Font Awesome 的 code 图标
+        # self.tabs.addTab(self.json_formatter_tab, json_icon, 'JsonFormat')
 
         self.md5 = MD5Cal()  # 创建 MD5Tab 实例
         json_icon = qta.icon('fa5s.truck-monster') 
         self.tabs.addTab(self.md5, json_icon, 'MD5')  # 添加 MD5Tab 分页
         
-        self.stringTrans = StringTrans()  # 创建 MD5Tab 实例
-        json_icon = qta.icon('fa5b.waze') 
-        self.tabs.addTab(self.stringTrans, json_icon, 'StringTrans')  # 添加 MD5Tab 分页
+        # self.stringTrans = StringTrans()  # 创建 MD5Tab 实例
+        # json_icon = qta.icon('fa5b.waze') 
+        # self.tabs.addTab(self.stringTrans, json_icon, 'StringTrans')  # 添加 MD5Tab 分页
         
         # self.shutdown_tab = ShutdownTab()
         # self.tabs.addTab(self.shutdown_tab, '關機')
